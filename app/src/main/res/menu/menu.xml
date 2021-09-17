@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/mnu_open"
+        android:icon="@drawable/open"
+        android:title="Open">
+    </item>
+    <item
+        android:id="@+id/mnu_goto"
+        android:icon="@drawable/gotopage"
+        android:title="Go to">
+    </item>
+    <item
+        android:id="@+id/mnu_download"
+        android:icon="@drawable/download"
+        android:title="Dowload">
+    </item>
+    <item
+        android:id="@+id/mnu_browser"
+        android:icon="@drawable/browser"
+        android:title="Browser" android:visible="true">
+    </item>
+    <item
+        android:id="@+id/mnu_mode"
+        android:icon="@drawable/rotate"
+        android:title="Mode" android:visible="true">
+    </item>
+    <item
+        android:id="@+id/mnu_setting"
+        android:icon="@drawable/setting"
+        android:title="Setting">
+    </item>
+
+</menu>
